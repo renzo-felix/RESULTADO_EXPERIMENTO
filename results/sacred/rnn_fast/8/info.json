@@ -1,0 +1,264 @@
+{
+  "battle_won_mean": [
+    0.0,
+    0.0
+  ],
+  "battle_won_mean_T": [
+    20,
+    10038
+  ],
+  "curiosity_decay_cycle": [
+    100000,
+    100000
+  ],
+  "curiosity_decay_cycle_T": [
+    859,
+    10862
+  ],
+  "curiosity_decay_rate": [
+    0.9,
+    0.9
+  ],
+  "curiosity_decay_rate_T": [
+    859,
+    10862
+  ],
+  "curiosity_decay_stop": [
+    0.0,
+    0.0
+  ],
+  "curiosity_decay_stop_T": [
+    859,
+    10862
+  ],
+  "curiosity_scale": [
+    0.001,
+    0.001
+  ],
+  "curiosity_scale_T": [
+    859,
+    10862
+  ],
+  "ep_length_mean": [
+    20.0,
+    25.886304909560724
+  ],
+  "ep_length_mean_T": [
+    20,
+    10038
+  ],
+  "episode": [
+    387
+  ],
+  "episode_T": [
+    10011
+  ],
+  "epsilon": [
+    1.0,
+    0.809791
+  ],
+  "epsilon_T": [
+    20,
+    10038
+  ],
+  "grad_norm": [
+    0.7822678089141846,
+    0.19338902831077576
+  ],
+  "grad_norm_T": [
+    859,
+    10862
+  ],
+  "loss": [
+    0.03591403737664223,
+    0.014150186441838741
+  ],
+  "loss_T": [
+    859,
+    10862
+  ],
+  "num_circle": [
+    1,
+    1
+  ],
+  "num_circle_T": [
+    20,
+    10038
+  ],
+  "q_taken_mean": [
+    0.010874441588715986,
+    0.08754247707397886
+  ],
+  "q_taken_mean_T": [
+    859,
+    10862
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 1.3584905660377358
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 1.6037248305787142
+    }
+  ],
+  "return_mean_T": [
+    20,
+    10038
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.4992564011443036
+    }
+  ],
+  "return_std_T": [
+    20,
+    10038
+  ],
+  "target_mean": [
+    0.03568953668418946,
+    0.0820435984800478
+  ],
+  "target_mean_T": [
+    859,
+    10862
+  ],
+  "td_error_abs": [
+    0.1432964249456581,
+    0.08900493210740604
+  ],
+  "td_error_abs_T": [
+    859,
+    10862
+  ],
+  "test_battle_won_mean": [
+    0.0,
+    0.0
+  ],
+  "test_battle_won_mean_T": [
+    20,
+    10038
+  ],
+  "test_ep_length_mean": [
+    70.0,
+    32.125
+  ],
+  "test_ep_length_mean_T": [
+    20,
+    10038
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 4.330188679245283
+    }
+  ],
+  "test_return_mean_T": [
+    20,
+    10038
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 1.1566899533900201
+    }
+  ],
+  "test_return_std_T": [
+    20,
+    10038
+  ],
+  "vdn extrinsic rewards": [
+    0.0484986932508049,
+    0.056407009049611184
+  ],
+  "vdn extrinsic rewards_T": [
+    859,
+    10862
+  ],
+  "vdn grad_norm": [
+    2.9372692108154297,
+    0.20142920315265656
+  ],
+  "vdn grad_norm_T": [
+    859,
+    10862
+  ],
+  "vdn hit_prob": [
+    0.5001164078712463,
+    0.4920046329498291
+  ],
+  "vdn hit_prob_T": [
+    859,
+    10862
+  ],
+  "vdn intrinsic rewards": [
+    0.0028249970415002114,
+    0.0002771817484432411
+  ],
+  "vdn intrinsic rewards_T": [
+    859,
+    10862
+  ],
+  "vdn loss": [
+    0.30434510111808777,
+    0.022040221840143204
+  ],
+  "vdn loss_T": [
+    859,
+    10862
+  ],
+  "vdn prediction loss": [
+    2.8249967098236084,
+    0.2771817147731781
+  ],
+  "vdn prediction loss_T": [
+    859,
+    10862
+  ],
+  "vdn q_taken_mean": [
+    0.012876496853456508,
+    0.0933486390362471
+  ],
+  "vdn q_taken_mean_T": [
+    859,
+    10862
+  ],
+  "vdn target_mean": [
+    0.10265365795983702,
+    0.08895908678392961
+  ],
+  "vdn target_mean_T": [
+    859,
+    10862
+  ],
+  "vdn td_error_abs": [
+    0.45308286513660506,
+    0.11181605262800551
+  ],
+  "vdn td_error_abs_T": [
+    859,
+    10862
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "battle_won_mean": [
+    0.0
+  ],
+  "battle_won_mean_T": [
+    23
+  ],
+  "curiosity_decay_cycle": [
+    100000
+  ],
+  "curiosity_decay_cycle_T": [
+    888
+  ],
+  "curiosity_decay_rate": [
+    0.9
+  ],
+  "curiosity_decay_rate_T": [
+    888
+  ],
+  "curiosity_decay_stop": [
+    0.0
+  ],
+  "curiosity_decay_stop_T": [
+    888
+  ],
+  "curiosity_scale": [
+    0.001
+  ],
+  "curiosity_scale_T": [
+    888
+  ],
+  "ep_length_mean": [
+    23.0
+  ],
+  "ep_length_mean_T": [
+    23
+  ],
+  "epsilon": [
+    1.0
+  ],
+  "epsilon_T": [
+    23
+  ],
+  "grad_norm": [
+    0.799229085445404
+  ],
+  "grad_norm_T": [
+    888
+  ],
+  "loss": [
+    0.040121376514434814
+  ],
+  "loss_T": [
+    888
+  ],
+  "num_circle": [
+    1
+  ],
+  "num_circle_T": [
+    23
+  ],
+  "q_taken_mean": [
+    0.043352838464685385
+  ],
+  "q_taken_mean_T": [
+    888
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 1.3584905660377358
+    }
+  ],
+  "return_mean_T": [
+    23
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "return_std_T": [
+    23
+  ],
+  "target_mean": [
+    0.0682072201290646
+  ],
+  "target_mean_T": [
+    888
+  ],
+  "td_error_abs": [
+    0.14910051844141506
+  ],
+  "td_error_abs_T": [
+    888
+  ],
+  "test_battle_won_mean": [
+    0.0
+  ],
+  "test_battle_won_mean_T": [
+    23
+  ],
+  "test_ep_length_mean": [
+    21.0625
+  ],
+  "test_ep_length_mean_T": [
+    23
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 1.7028301886792452
+    }
+  ],
+  "test_return_mean_T": [
+    23
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.388943626881095
+    }
+  ],
+  "test_return_std_T": [
+    23
+  ],
+  "vdn extrinsic rewards": [
+    0.04716981423867715
+  ],
+  "vdn extrinsic rewards_T": [
+    888
+  ],
+  "vdn grad_norm": [
+    3.6874325275421143
+  ],
+  "vdn grad_norm_T": [
+    888
+  ],
+  "vdn hit_prob": [
+    0.5020270347595215
+  ],
+  "vdn hit_prob_T": [
+    888
+  ],
+  "vdn intrinsic rewards": [
+    0.004149912176905452
+  ],
+  "vdn intrinsic rewards_T": [
+    888
+  ],
+  "vdn loss": [
+    0.4619165062904358
+  ],
+  "vdn loss_T": [
+    888
+  ],
+  "vdn prediction loss": [
+    4.149911880493164
+  ],
+  "vdn prediction loss_T": [
+    888
+  ],
+  "vdn q_taken_mean": [
+    0.02688046017208615
+  ],
+  "vdn q_taken_mean_T": [
+    888
+  ],
+  "vdn target_mean": [
+    0.13687001821157094
+  ],
+  "vdn target_mean_T": [
+    888
+  ],
+  "vdn td_error_abs": [
+    0.5555729908986135
+  ],
+  "vdn td_error_abs_T": [
+    888
+  ]
+}

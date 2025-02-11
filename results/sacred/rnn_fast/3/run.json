@@ -1,0 +1,105 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home/renzo.felix/MLRC-EMU/src/EMU_release_pymarl/src",
+    "dependencies": [
+      "numpy==1.23.1",
+      "PyYAML==5.3.1",
+      "sacred==0.8.5",
+      "torch==1.12.1"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_ca743912abb89c6d89f85e8dbf98b72e.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_a6b636d7a64a8baa4c3f4f0afc027672.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_dbae9b7001fb2435d067d770605d31e4.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"/home/renzo.felix/miniconda3/envs/mi_entorno/lib/python3.8/site-packages/sacred/config/captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"/home/renzo.felix/MLRC-EMU/src/EMU_release_pymarl/src/main.py\", line 39, in my_main\n    run(_run, config, _log)\n",
+    "  File \"/home/renzo.felix/MLRC-EMU/src/EMU_release_pymarl/src/run.py\", line 70, in run\n    run_sequential(args=args, logger=logger)\n",
+    "  File \"/home/renzo.felix/MLRC-EMU/src/EMU_release_pymarl/src/run.py\", line 258, in run_sequential\n    ec_buffer.update_ec_modified(episode_batch)\n",
+    "  File \"/home/renzo.felix/MLRC-EMU/src/EMU_release_pymarl/src/components/episodic_memory_buffer.py\", line 172, in update_ec_modified\n    qd, xi_t, dummy = self.ec_buffer.peek_modified_EC(z, Rtd, xi_tau, True, s_in, t,self.agent_id) # input: z (cpu)\n",
+    "  File \"/home/renzo.felix/MLRC-EMU/src/EMU_release_pymarl/src/modules/agents/LRN_KNN_STATE.py\", line 147, in peek_modified_EC\n    if self.agent_id not in self.access_logs :\n",
+    "AttributeError: 'LRU_KNN_STATE' object has no attribute 'agent_id'\n"
+  ],
+  "heartbeat": "2025-02-10T05:49:18.696272",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) Gold 5418Y",
+    "gpus": {
+      "driver_version": "560.35.03",
+      "gpus": [
+        {
+          "model": "NVIDIA RTX A6000",
+          "persistence_mode": true,
+          "total_memory": 49140
+        }
+      ]
+    },
+    "hostname": "g003",
+    "os": [
+      "Linux",
+      "Linux-4.18.0-553.22.1.el8_10.x86_64-x86_64-with-glibc2.17"
+    ],
+    "python_version": "3.8.20"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "env_args": {
+        "map_name": "5m_vs_6m"
+      },
+      "save_model": true
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.map_name=5m_vs_6m",
+        "save_model=True"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2025-02-10T05:49:01.657806",
+  "status": "FAILED",
+  "stop_time": "2025-02-10T05:49:18.707900"
+}
